@@ -67,8 +67,7 @@ header{
 }
 
 .post{
-    writing-mode: sideways-rl;
-    -webkit-writing-mode:sideways-rl;
+    writing-mode: vertical-rl;
     font-size: 1.2rem;
     font-weight: 400;
     font-family: 'PT Serif', serif;
