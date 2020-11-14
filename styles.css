@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
+}
+
+html{
+    font-size: 10px;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    margin: 4rem 0;
+}
+
+.title{
+    font-size: 3.6rem;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+    margin-bottom: 2rem;
+}
+
+.description{
+    font-size: 1.8rem;
+    font-family: Poppins,sans-serif;
+    padding-bottom: 2rem;
+}
+
+.description h4{
+    font-weight: 600;
+}
+
+.description p{
+    font-weight: 400;
+    max-width: 30rem;
+}
+
+.name{
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: Poppins,sans-serif;
+}
+
+
+.team{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 6rem;
+}
+
+.member{
+    display: flex;
+    align-items: flex-start;
+    padding: 0.5rem;
+}
+
+.post{
+    writing-mode: sideways-rl;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-family: 'PT Serif', serif;
+}
+
+.member-2 , .member-4 , .member-6{
+    margin-top: 5rem;
+}
+
+footer{
+    text-align: center;
+    font-size: 2.1rem;
+    margin-top: 3rem;
+}
+
+.fa{
+    margin:0 2rem;
+    color: #3e64ff;
+}
+
+.copy{
+    margin: 2rem 0;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A9A9A9;
+}
+
+@media only screen and (min-width: 650px) {
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .team{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 5rem;
+    }
+
+    .member-2,.member-5{
+        margin-top: 10rem;
+    }
+
+  }
